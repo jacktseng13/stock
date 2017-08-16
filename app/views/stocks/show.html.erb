@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Gafata:</strong>
+  <%= @stock.gafata %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @stock.description %>
+</p>
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>
